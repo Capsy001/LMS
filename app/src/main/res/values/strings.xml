@@ -2,8 +2,13 @@
     <string name="app_name">LMS</string>
     <string name="sign_in">Sign In</string>
     <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
+    <string name="repassword">Retype Password</string>
     <string name="fg_password">Frogot Password</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="aggrement">I agree to the Terms of Use and Privacy Policy.</string>
     <string name="tagline">Best Place To Be In Touch With Your \n Education</string>
 </resources>
