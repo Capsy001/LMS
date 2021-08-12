@@ -2,5 +2,8 @@
     <string name="app_name">LMS</string>
     <string name="sign_in">Sign In</string>
     <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="fg_password">Frogot Password</string>
     <string name="tagline">Best Place To Be In Touch With Your \n Education</string>
 </resources>
