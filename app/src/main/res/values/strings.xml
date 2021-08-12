@@ -6,9 +6,11 @@
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="repassword">Retype Password</string>
-    <string name="fg_password">Frogot Password</string>
+    <string name="fg_password">Forgot Password</string>
     <string name="teacher">Teacher</string>
     <string name="student">Student</string>
+    <string name="forgot">Forgot Password</string>
+    <string name="reqpw">Get New Password</string>
     <string name="aggrement">I agree to the Terms of Use and Privacy Policy.</string>
     <string name="tagline">Best Place To Be In Touch With Your \n Education</string>
 </resources>
