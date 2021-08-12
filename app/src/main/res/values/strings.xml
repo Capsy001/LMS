@@ -13,4 +13,9 @@
     <string name="reqpw">Get New Password</string>
     <string name="aggrement">I agree to the Terms of Use and Privacy Policy.</string>
     <string name="tagline">Best Place To Be In Touch With Your \n Education</string>
+    <string name="contactus">Contact Us</string>
+    <string name="tele">Telephones : +94 77 8174156</string>
+    <string name="fax">Fax Nos : +94 11 2 473645</string>
+    <string name="address">Email : edu2lms@tk.com</string>
+    <string name="rate">How do you like? \n Rate your experience.</string>
 </resources>
