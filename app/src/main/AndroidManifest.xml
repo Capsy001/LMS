@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LMS">
-        <activity android:name=".addCourse"
-            android:exported="true"></activity>
+        <activity android:name=".newAnnouncement"
+            android:exported="true" ></activity>
+        <activity
+            android:name=".addCourse"
+            android:exported="true" />
         <activity android:name=".Assign_submit" />
         <activity android:name=".Institute_entrol" />
         <activity
