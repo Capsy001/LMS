@@ -68,4 +68,10 @@
         <item>Mars Institute</item>
     </string-array>
 
+    <string-array name="assignments">
+        <item>Assignment Title</item>
+        <item>Reflective Journal</item>
+        <item>MAD assignment</item>
+    </string-array>
+
 </resources>

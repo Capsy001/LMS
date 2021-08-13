@@ -24,13 +24,15 @@
         android:id="@+id/editTextTextPersonName4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="696dp"
+        android:layout_marginBottom="588dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/institute_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageView22"
@@ -40,10 +42,9 @@
         android:scaleType="matrix"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView35"
-        app:layout_constraintVertical_bias="0.459"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/grp" />
 
     <TextView
@@ -89,9 +90,10 @@
         android:text="@string/add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView22"
-        app:layout_constraintVertical_bias="0.361" />
+        app:layout_constraintVertical_bias="0.135" />
 
     <ImageView
         android:id="@+id/imageView23"
@@ -111,9 +113,10 @@
         android:layout_height="123dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
-        app:layout_constraintVertical_bias="0.019"
+        app:layout_constraintVertical_bias="0.034"
         app:srcCompat="@android:drawable/ic_menu_add" />
 
     <TextView
