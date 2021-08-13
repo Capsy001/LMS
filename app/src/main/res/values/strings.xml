@@ -40,5 +40,12 @@
     <string name="shs">SHS Institute</string>
     <string name="entroll">Entroll</string>
     <string name="entroll_key">Entrollment key</string>
+    <string name="add_content">Add Content</string>
+    <string name="add_course">Add Course</string>
+    <string name="add_institute">Add Institute</string>
+    <string name="edit_c">Edit Content</string>
+    <string name="description">Description</string>
+    <string name="select_files">Select Files</string>
+    <string name="add">Add</string>
 
 </resources>
