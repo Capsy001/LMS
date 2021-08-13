@@ -18,6 +18,9 @@
     <string name="fax">Fax Nos : +94 11 2 473645</string>
     <string name="emailaddress">Email : edu2lms@tk.com</string>
     <string name="rate">How do you like? \n Rate your experience.</string>
-    <string name="student_p">Profile</string>
-    <string name="student_p">Institute</string>
+    <string name="title_activity_mycourse">MycourseActivity</string>
+    <string name="tab_text_1">Profile</string>
+    <string name="tab_text_2">MyCourse</string>
+    <string name="tab_text_3">Announcements</string>
+    <string name="tab_text_4">Assignments</string>
 </resources>
