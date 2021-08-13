@@ -57,6 +57,7 @@
     <string name="add_managers">Add Managers</string>
     <string name="name_manager">Name of managers</string>
     <string name="add_annocement">Add New Announcement</string>
+    <string name="add_assignment">Add New Assignment</string>
 
 
     <string-array name="institutes">
