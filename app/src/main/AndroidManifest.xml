@@ -9,11 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LMS">
+        <activity android:name=".Assign_submit"></activity>
         <activity
             android:name=".MycourseActivity"
+            android:exported="true"
             android:label="@string/title_activity_mycourse"
-            android:theme="@style/Theme.LMS"
-            android:exported="true"></activity>
+            android:theme="@style/Theme.LMS" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
