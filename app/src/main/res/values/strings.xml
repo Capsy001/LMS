@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">LMS</string>
     <string name="sign_in">Sign In</string>
+    <string name="search">Search</string>
     <string name="sign_up">Sign Up</string>
     <string name="name">Name</string>
     <string name="email">Email</string>
@@ -35,5 +36,9 @@
     <string name="submit_assignment">Submit Assignment</string>
     <string name="select_file">Select File</string>
     <string name="submit">Submit</string>
+    <string name="institutes">Institutes</string>
+    <string name="shs">SHS Institute</string>
+    <string name="entroll">Entroll</string>
+    <string name="entroll_key">Entrollment key</string>
 
 </resources>
