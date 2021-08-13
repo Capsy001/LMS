@@ -27,6 +27,7 @@
     <string name="course_title">Course Title</string>
     <string name="course_content">Course Content</string>
     <string name="Course_description">Course Contents,\nannouncements, links</string>
-
+    <string name="Annou_title">Title</string>
+    <string name="Annou_content">Description of the\n announcement and content</string>
 
 </resources>
