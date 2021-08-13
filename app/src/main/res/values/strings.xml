@@ -24,4 +24,9 @@
     <string name="tab_text_3">Announcements</string>
     <string name="tab_text_4">Assignments</string>
     <string name="student_name">Senavirathne KMCL</string>
+    <string name="course_title">Course Title</string>
+    <string name="course_content">Course Content</string>
+    <string name="Course_description">Course Contents,\nannouncements, links</string>
+
+
 </resources>
