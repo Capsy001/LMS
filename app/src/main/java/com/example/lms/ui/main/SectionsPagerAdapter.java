@@ -10,6 +10,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.example.lms.Announcements;
 import com.example.lms.Assignmnets;
+import com.example.lms.Institutes;
 import com.example.lms.MyCourse;
 import com.example.lms.Profile;
 import com.example.lms.R;
@@ -21,7 +22,7 @@ import com.example.lms.R;
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @StringRes
-    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2, R.string.tab_text_3, R.string.tab_text_4};
+    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_5, R.string.tab_text_2, R.string.tab_text_3, R.string.tab_text_4};
     private final Context mContext;
 
     public SectionsPagerAdapter(Context context, FragmentManager fm) {
@@ -37,12 +38,15 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
                 fragment = new Profile();
                 break;
             case 1:
-                fragment = new MyCourse();
+                fragment = new Institutes();
                 break;
             case 2:
-                fragment = new Announcements();
+                fragment = new MyCourse();
                 break;
             case 3:
+                fragment = new Announcements();
+                break;
+            case 4:
                 fragment = new Assignmnets();
                 break;
         }
@@ -58,6 +62,6 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         // Show 2 total pages.
-        return 4;
+        return 5;
     }
 }
