@@ -51,6 +51,11 @@
     <string name="c_name">Course Name</string>
     <string name="add_instructor">Add Instructors</string>
     <string name="name_instructor">Name of instructor</string>
+    <string name="add_i">Add Institute</string>
+    <string name="institute_name">Institute Name</string>
+    <string name="select_logo">Select Logo</string>
+    <string name="add_managers">Add Managers</string>
+    <string name="name_manager">Name of managers</string>
 
 
     <string-array name="institutes">
