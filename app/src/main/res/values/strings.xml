@@ -26,13 +26,13 @@
     <string name="tab_text_4">Assignments</string>
     <string name="tab_text_5">Institutes</string>
     <string name="student_name">Senavirathne KMCL</string>
-    <string name="course_title">Course Title</string>
-    <string name="course_content">Course Content</string>
-    <string name="Course_description">Course Contents,\nannouncements, links</string>
-    <string name="Annou_title">Title</string>
-    <string name="Annou_content">Description of the\n announcement and content</string>
-    <string name="Assig_title">Assignment</string>
-    <string name="assig_cont">Assignment description,\ndeadline and submission\n link</string>
+    <string name="course_title">Mobile App Development</string>
+    <string name="course_content">Android studios,Github</string>
+    <string name="Course_description">You will learn everything\nabout MAD</string>
+    <string name="Annou_title">Submit Your result sheets</string>
+    <string name="Annou_content">You need to send your\nlatest result sheet\nto the lecture in charge.</string>
+    <string name="Assig_title">MAD Assignment</string>
+    <string name="assig_cont">Deadline:08/29/2021\nSubmit before deadline</string>
     <string name="submit_assignment">Submit Assignment</string>
     <string name="select_file">Select File</string>
     <string name="submit">Submit</string>
@@ -50,15 +50,17 @@
     <string name="add_c">Add Content</string>
     <string name="c_name">Course Name</string>
     <string name="add_instructor">Add Instructors</string>
-    <string name="name_instructor">Name of instructor</string>
+    <string name="name_instructor">Manushi Ekanayake</string>
     <string name="add_i">Add Institute</string>
     <string name="institute_name">Institute Name</string>
     <string name="select_logo">Select Logo</string>
     <string name="add_managers">Add Managers</string>
-    <string name="name_manager">Name of managers</string>
+    <string name="name_manager">Senanayake ABC</string>
     <string name="add_annocement">Add New Announcement</string>
     <string name="add_assignment">Add New Assignment</string>
     <string name="deadline">Deadline</string>
+    <string name="shs1">Venus Institute</string>
+    <string name="shs2">Mars Institute</string>
 
 
     <string-array name="institutes">

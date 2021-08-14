@@ -57,4 +57,82 @@
         app:layout_constraintStart_toStartOf="@+id/textView27"
         app:layout_constraintTop_toBottomOf="@+id/textView27"
         app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView15_dup1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        app:layout_constraintVertical_bias="0.673"
+        app:srcCompat="@drawable/university" />
+
+    <TextView
+        android:id="@+id/textView27_dup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shs2"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toEndOf="@+id/imageView15_dup1"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        app:layout_constraintVertical_bias="0.607" />
+
+    <Button
+        android:id="@+id/button3_dup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="172dp"
+        android:layout_marginRight="172dp"
+        android:text="@string/entroll"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="@+id/textView2_dup17"
+        app:layout_constraintTop_toBottomOf="@+id/textView27_dup1"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <ImageView
+        android:id="@+id/imageView15_dup2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        app:layout_constraintVertical_bias="0.464"
+        app:srcCompat="@drawable/university" />
+
+    <TextView
+        android:id="@+id/textView27_dup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shs1"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toEndOf="@+id/imageView15_dup2"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        app:layout_constraintVertical_bias="0.419" />
+
+    <Button
+        android:id="@+id/button3_dup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/entroll"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="@+id/textView27_dup2"
+        app:layout_constraintTop_toBottomOf="@+id/textView27_dup2"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

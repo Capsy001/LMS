@@ -41,10 +41,10 @@
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.331"
+        app:layout_constraintHorizontal_bias="0.344"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView17"
-        app:layout_constraintVertical_bias="0.068" />
+        app:layout_constraintVertical_bias="0.069" />
 
     <TextView
         android:id="@+id/textView19"
@@ -94,6 +94,70 @@
         app:layout_constraintStart_toEndOf="@+id/imageView16"
         app:layout_constraintTop_toBottomOf="@+id/textView17"
         app:layout_constraintVertical_bias="0.091"
+        app:srcCompat="@android:drawable/ic_menu_delete" />
+
+    <TextView
+        android:id="@+id/textView18_dup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course_content"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.344"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.248" />
+
+    <TextView
+        android:id="@+id/textView19_dup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Course_description"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18_dup1"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <ImageView
+        android:id="@+id/imageView12_dup1"
+        android:layout_width="78dp"
+        android:layout_height="88dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.277"
+        app:srcCompat="@drawable/course" />
+
+    <ImageView
+        android:id="@+id/imageView16_dup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.667"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <ImageView
+        android:id="@+id/imageView17_dup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toEndOf="@+id/imageView16_dup1"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.25"
         app:srcCompat="@android:drawable/ic_menu_delete" />
 
     <ImageView
