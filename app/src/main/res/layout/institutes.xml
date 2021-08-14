@@ -30,7 +30,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView26"
         app:layout_constraintVertical_bias="0.244"
-        app:srcCompat="@android:drawable/ic_menu_gallery" />
+        app:srcCompat="@drawable/university" />
 
     <TextView
         android:id="@+id/textView27"
@@ -41,10 +41,10 @@
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.153"
         app:layout_constraintStart_toEndOf="@+id/imageView15"
         app:layout_constraintTop_toBottomOf="@+id/textView26"
-        app:layout_constraintVertical_bias="0.269" />
+        app:layout_constraintVertical_bias="0.262" />
 
     <Button
         android:id="@+id/button3"

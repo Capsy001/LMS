@@ -12,7 +12,7 @@
         android:layout_height="77dp"
         android:text="@string/tagline"
         android:textAlignment="center"
-        android:textColor="@color/light_pink"
+        android:textColor="@color/design_default_color_on_secondary"
         android:textSize="48px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
