@@ -27,10 +27,10 @@
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView16"
-        app:layout_constraintVertical_bias="0.071" />
+        app:layout_constraintTop_toBottomOf="@+id/mycourse"
+        app:layout_constraintVertical_bias="0.094" />
 
     <TextView
         android:id="@+id/textView18"
@@ -75,7 +75,12 @@
     <Spinner
         android:id="@+id/mycourse"
         android:layout_width="235dp"
-        android:layout_height="28dp" />
+        android:layout_height="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:layout_constraintVertical_bias="0.057" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
