@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/Annou_title"
+        android:text="@string/title"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +36,6 @@
         android:id="@+id/editTextTextMultiLine3"
         android:layout_width="322dp"
         android:layout_height="125dp"
-        android:background="@null"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
@@ -98,5 +97,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView27"
         app:layout_constraintVertical_bias="0.07" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

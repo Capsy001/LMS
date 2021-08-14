@@ -8,14 +8,14 @@ import android.widget.Spinner;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Institute_entrol extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+public class adminCourse extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.institutes_entroll);
 
-        Spinner spinner = (Spinner) findViewById(R.id.mycourse2);
+        Spinner spinner = (Spinner) findViewById(R.id.mycourse4);
         spinner.setOnItemSelectedListener(this);
         // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,

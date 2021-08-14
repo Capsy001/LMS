@@ -21,7 +21,7 @@
     <string name="rate">How do you like? \n Rate your experience.</string>
     <string name="title_activity_mycourse">LMS</string>
     <string name="tab_text_1">Profile</string>
-    <string name="tab_text_2">MyCourse</string>
+    <string name="tab_text_2">My Courses</string>
     <string name="tab_text_3">Announcements</string>
     <string name="tab_text_4">Assignments</string>
     <string name="tab_text_5">Institutes</string>
@@ -59,6 +59,7 @@
     <string name="add_annocement">Add New Announcement</string>
     <string name="add_assignment">Add New Assignment</string>
     <string name="deadline">Deadline</string>
+    <string name="title">Title</string>
     <string name="shs1">Venus Institute</string>
     <string name="shs2">Mars Institute</string>
 
