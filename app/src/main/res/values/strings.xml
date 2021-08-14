@@ -74,4 +74,10 @@
         <item>MAD assignment</item>
     </string-array>
 
+    <string-array name="mycourses">
+        <item>Course Name</item>
+        <item>Mobile Application development</item>
+        <item>Ps</item>
+    </string-array>
+
 </resources>
