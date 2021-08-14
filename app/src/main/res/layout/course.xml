@@ -22,6 +22,7 @@
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="600dp"
         android:text="@string/course_title"
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="25dp"
@@ -29,8 +30,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mycourse"
-        app:layout_constraintVertical_bias="0.094" />
+        app:layout_constraintTop_toBottomOf="@+id/institute1"
+        app:layout_constraintVertical_bias="0.759" />
 
     <TextView
         android:id="@+id/textView18"
@@ -41,10 +42,10 @@
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.331"
+        app:layout_constraintHorizontal_bias="0.33"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView17"
-        app:layout_constraintVertical_bias="0.068" />
+        app:layout_constraintVertical_bias="0.069" />
 
     <TextView
         android:id="@+id/textView19"
@@ -66,14 +67,14 @@
         android:layout_height="88dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintHorizontal_bias="0.056"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView17"
-        app:layout_constraintVertical_bias="0.078"
+        app:layout_constraintVertical_bias="0.046"
         app:srcCompat="@android:drawable/ic_menu_gallery" />
 
     <Spinner
-        android:id="@+id/mycourse"
+        android:id="@+id/institute1"
         android:layout_width="235dp"
         android:layout_height="28dp"
         app:layout_constraintBottom_toBottomOf="parent"

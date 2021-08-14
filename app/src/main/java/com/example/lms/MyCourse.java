@@ -18,12 +18,12 @@ public class MyCourse extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.course,container,false);
-        Spinner spinner = (Spinner) v.findViewById(R.id.mycourse);
+        View v1 = inflater.inflate(R.layout.course,container,false);
+        Spinner spinner = (Spinner) v1.findViewById(R.id.institute1);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this.getActivity(), R.array.mycourses, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
         spinner.setAdapter(adapter);
 
-        return v;
+        return v1;
     }
 }
