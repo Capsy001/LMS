@@ -13,9 +13,9 @@ public class adminCourse extends AppCompatActivity implements AdapterView.OnItem
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.institutes_entroll);
+        setContentView(R.layout.admin_course);
 
-        Spinner spinner = (Spinner) findViewById(R.id.mycourse4);
+        Spinner spinner = (Spinner) findViewById(R.id.mycourse2);
         spinner.setOnItemSelectedListener(this);
         // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,

@@ -66,7 +66,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mycourse2"
+        app:layout_constraintTop_toBottomOf="@+id/mycourse4"
         app:layout_constraintVertical_bias="0.096" />
 
     <Button
@@ -82,7 +82,7 @@
         app:layout_constraintVertical_bias="0.172" />
 
     <Spinner
-        android:id="@+id/mycourse2"
+        android:id="@+id/mycourse4"
         android:layout_width="235dp"
         android:layout_height="28dp"
         app:layout_constraintBottom_toBottomOf="parent"

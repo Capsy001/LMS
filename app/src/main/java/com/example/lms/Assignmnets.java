@@ -14,6 +14,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 public class Assignmnets extends Fragment implements View.OnClickListener {
 
@@ -36,11 +38,18 @@ public class Assignmnets extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.button4:
-                Intent intent = new Intent(getActivity(), Assign_submit.class);
-                startActivity(intent);
+
+                Fragment fragment;
+
+                fragment = new Assign_submit();
+                FragmentManager fm=getFragmentManager();
+                FragmentTransaction ft=fm.beginTransaction();
+                ft.replace(R.id.view_pager,fragment);
+                ft.commit();
                 break;
         }
     }
+
 
 
 
